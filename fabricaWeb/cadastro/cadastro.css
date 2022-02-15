@@ -9,15 +9,16 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
+    font-family: 'Open Sans', sans-serif;
+    background: url('https://raw.githubusercontent.com/P4nm/projetomod2/main/img/bginscr.png'), radial-gradient(rgb(72, 154, 209), rgb(0, 113, 188));
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 main{
     display: flex;
     width: 100%;
-    height: 92vh;
-    font-family: 'Open Sans', sans-serif;
-    background: url('https://raw.githubusercontent.com/P4nm/projetomod2/main/img/bgform.png'), radial-gradient(rgb(72, 154, 209), rgb(0, 113, 188));
-    background-repeat: no-repeat;
-    background-size: contain;
+    height: auto;
+    
 }
 
 .cabecalho{
@@ -25,12 +26,16 @@ main{
     height: auto;
     display: flex;
     flex-direction: column;
-    margin: 20vh 15vh;
-    line-height: 3em;
+    margin: 10vh;
 }
 
-.cabecalho img{
-    border-radius: 10px;
+.p-cabecalho{
+    margin-top: -16vh;
+    margin-left: .5em;
+    color: whitesmoke;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px black;
 }
 
 .secao-main{
@@ -46,14 +51,15 @@ form{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: 2em;
     height: 100%;
     width: 60%;
 }
 
 .formulario{
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.3);
     width: 90%;
-    height: 90%;
+    height: auto;
     border-radius: 10px;
     background: floralwhite;
     padding: 15px;
@@ -70,16 +76,17 @@ form{
 
 .input{
     display: inline-block;
-    width: 48%;
+    width: 49%;
     background: floralwhite;
     padding: 10px;
     font-size: 1em;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    line-height: 1.3em;
+    line-height: 1.5em;
+    outline: none;
 }
 
-#cidade, #pais{
-    width: 40%;
+#cidade, #bairro{
+    width: 42%;
 }
 
 #uf{
@@ -87,11 +94,11 @@ form{
 }
 
 #endereco, #email, #senha{
-    width: 98%;
+    width: 100%;
 }
 
 #check{
-    margin-top: 1.3em;
+    margin-top: 1.5em;
 }
 
 .label-check{
@@ -103,14 +110,24 @@ form{
 }
 
 #botao{
-    background: cornsilk;
+    display: flex;
+    width: 40%;
     padding: 13px;
     box-shadow: 1px 2px 4px black;
     border-radius: 30px;
-    margin: 13px 0 0 33%;
-    background: linear-gradient(to right, rgb(254,114,40), rgb(226,56,69));
+    margin: 1em auto;
+    background: rgb(82,35,141);
     color: aliceblue;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+}
+
+#botao:hover{
+    background: linear-gradient(rgb(254,114,40), rgb(226,56,69));
+    width: 80%;
+    font-weight: bold;
 }
 
 footer{
@@ -119,6 +136,7 @@ footer{
     align-items: center;
     width: 100%;
     height: 8vh;
-    background: floralwhite;
+    background: rgb(36,79,107);
+    color: whitesmoke;
 }
 
