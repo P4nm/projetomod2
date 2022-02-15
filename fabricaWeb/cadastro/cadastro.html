@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery.js" defer></script>
+    <script src="cadastro.js" defer></script>
+    <link rel="shortcut icon" href="../../img/foguete.ico" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="cadastro.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    </style>
+    <title>Fabrica Web</title>
+</head>
+
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1>
+                <img src="../../img/logo2.jpg" alt="logo fabrica web">
+            </h1>
+            <p class="p-cabecalho">Faça login ou crie uma conta.</p>
+        </header>
+
+        <section class="secao-main">
+            <form>
+                <fieldset class="formulario">
+                    <section class="secao1">
+                        <h2 class="titulo-form">Criar uma conta</h2>
+                        <p class="p-secao1">Já tem uma conta? <a href="#" class="azul">Faça login</a></p>
+                        <p class="p-secao2">Inscreva-se:</p>
+                    </section>
+                    <!--secao1-->
+
+                    <input class="input" type="text" id="nome" placeholder="Nome">
+
+                    <input class="input" type="text" id="nome" placeholder="Sobrenome">
+
+                    <input class="input" type="email" id="email" placeholder="Endereço de E-mail">
+
+                    <input class="input" type="password" id="senha" placeholder="Senha">
+
+                    <input class="input" type="password" id="senha" placeholder="Confirme sua senha">
+
+                    <input class="input" type="text" id="rg" placeholder="RG">
+
+                    <input class="input" type="text" id="cep" placeholder="CEP">
+
+                    <input class="input" type="text" id="endereco" placeholder="Endereço">
+
+                    <input class="input" type="text" id="cidade" placeholder="Cidade">
+
+                    <input class="input" type="text" id="uf" placeholder="UF">
+
+                    <input class="input" type="number" id="pais" placeholder="País">
+
+                    <input type="checkbox" name="checkbox" id="check">
+                    <label for="checkbox" class="label-check">Li e aceito os <a href="#" class="azul">Termos de Uso</a>
+                        e a <a class="azul" href="#">Política de privacidade</a></label>
+
+                    <button type="button" id="botao">Cadastrar</button>
+                </fieldset>
+            </form>
+        </section>
+        <!--secao-main-->
+
+    </main>
+
+    <footer>
+        2022 fabricaWeb Resilia
+    </footer>
+</body>
+
+</html>
+
+<!-- input nome, email, senha, confirmação de senha, rg, CEP, campo de endereço -->
