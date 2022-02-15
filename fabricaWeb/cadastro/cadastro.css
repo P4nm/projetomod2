@@ -15,7 +15,9 @@ main{
     width: 100%;
     height: 92vh;
     font-family: 'Open Sans', sans-serif;
-    background: url(), radial-gradient(rgb(72, 154, 209), rgb(0, 113, 188));
+    background: url('https://raw.githubusercontent.com/P4nm/projetomod2/main/img/bgform.png'), radial-gradient(rgb(72, 154, 209), rgb(0, 113, 188));
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .cabecalho{
