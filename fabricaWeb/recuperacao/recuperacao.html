@@ -4,17 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="jquery.js" defer></script>
+    <link rel="shortcut icon" href="../../img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../reset.css">
+    <link rel="stylesheet" href="recuperacao.css">
+    <script src="../../jquery.js" defer></script>
     <script src="recuperacao.js" defer></script>
     <title>Recuperação de senha</title>
 </head>
 <body>
-    <form>
-        <input type="email" id="email" placeholder="email">
-        <button id="button">Recuperar senha</button>
-    </form>
+    <main class="box-main">
+        <section class="box-texto">
+            <h1>
+                <a href="../../index.html">
+                    <img src="../../img/logoM.png" alt="">
+                </a>
+            </h1>
+
+            <p>Faça login ou crie uma conta</p>
+        </section>
+        <!--box-texto-->
+
+        <form action="" class="formulario">
+            <fieldset class="form-corpo">
+                <section class="secao1">
+                    <legend class="legenda">
+                       Esqueceu a senha?
+                    </legend>
+                </section>
+                <!--secao1-->
+
+                <section class="secao2">
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                </section>
+                <!--secao2-->
+
+                <button type="submit" id="botao">
+                    Continuar
+                </button>
 
 </body>
 </html>
 
-<!-- formulario com email e exigir após submissao de formulario o email enviado -->

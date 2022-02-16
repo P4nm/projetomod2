@@ -1,5 +1,5 @@
 const emailRecupera = $("#email")
-const recuperarSenha = $("#button")
+const recuperarSenha = $("#botao")
 
 recuperarSenha.on("click", function (event) {
     event.preventDefault() //  preventDefault ele evite que atualize a pagina
