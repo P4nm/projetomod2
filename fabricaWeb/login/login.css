@@ -50,7 +50,7 @@ body{
 }
 
 .secao1{
-    margin: 3em;
+    margin: 2em;
     height: 15%;
 }
 
@@ -68,6 +68,7 @@ body{
 .secao2{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 1em;
 }
 
 .secao2 input{
@@ -77,6 +78,14 @@ body{
     border-radius: 20px;
     outline: none;
     box-shadow: 1px 1px 8px black;
+}
+
+#esqueci{
+    color: #53238e;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+    margin-right: 2em;
 }
 
 button{
