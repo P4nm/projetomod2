@@ -38,10 +38,11 @@ body{
     padding: 10px 25px;
     border-radius: 8px;
     transition: 1s;
+    font-weight: bold;
 }
 
 .ativo{
-    background: rgba(255, 116, 40, .8);
+    background: #53238e;
     color: whitesmoke;
 }
 
@@ -62,7 +63,7 @@ main{
     display: flex;
     flex-direction: column;  
     justify-content: end;  
-    width: 50%;
+    width: 45%;
     height: auto;
     margin: 8em;
 }
@@ -108,7 +109,7 @@ main{
 
 #a2{
     width: 100%;
-    background: linear-gradient(to right, rgb(72, 154, 209), rgb(0, 113, 188));
+    background: linear-gradient(to right, #53238e, rgb(72, 154, 209));
     margin-right: 3em;
     padding: 8px 25px;
     border-radius: 30px;
@@ -122,15 +123,43 @@ main{
 }
 
 .box2{
-    width: 40%;
+    margin-right: 5em;
     height: 80vh;
     display: flex;
-    align-items: center;
-    width: 80%;
-    opacity: .7;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: 55%;
 }
 
-.box2:hover{
+.log a{
+    margin-right: 2em;
+    font-weight: bold;
+}
+
+#a1-log{
+    padding: 8px 25px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+#a2-log{
+    background: #ff7428;
+    padding: 8px 25px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+#a2-log:hover, #a1-log:hover{
+    background: #ff7428;
+}
+
+.box2 img{
+    opacity: .7;
+    width: 100%;
+}
+
+.box2 img:hover{
     opacity: 1;
 }
 
