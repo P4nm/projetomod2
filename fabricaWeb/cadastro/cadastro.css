@@ -10,7 +10,7 @@ body{
     justify-content: space-between;
     align-items: flex-start;
     font-family: 'Open Sans', sans-serif;
-    background: url('https://raw.githubusercontent.com/P4nm/projetomod2/main/img/bginscr.png'), radial-gradient(rgb(72, 154, 209), rgb(0, 113, 188));
+    background: url('https://raw.githubusercontent.com/P4nm/projetomod2/main/img/bginscr.png'), radial-gradient(rgb(72, 154, 209), rgb(83,35,142));
     background-repeat: no-repeat;
     background-size: contain;
 }

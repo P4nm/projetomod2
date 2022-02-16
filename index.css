@@ -3,7 +3,7 @@
 }
 
 body{
-    background: linear-gradient(to right, rgb(72, 154, 209), rgb(0, 113, 188));
+    background: linear-gradient(to right, rgb(72, 154, 209), #53238e);
     font-family: 'Open Sans', sans-serif;
     color: whitesmoke;
     overflow-x: hidden;
@@ -55,7 +55,7 @@ main{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 100%;
+    height: 84vh;
 }
 
 .box1{
@@ -75,7 +75,7 @@ main{
 }
 
 .p1{
-    width: 70%;
+    width: 100%;
     text-align: justify;
     line-height: 1.3em;
     text-shadow: 1px 1px 1px black;
@@ -92,10 +92,12 @@ main{
  margin: 2em 0;
  display: flex;
  align-items: center;
+ width: 100%;
 }
 
-.secao-botao a{
-    margin-right: 4em;
+#a1{
+    width: 100%;
+    margin-right: 3em;
     background: rgb(82,35,141);
     padding: 15px 25px;
     border-radius: 30px;
@@ -104,14 +106,46 @@ main{
     transition: 1s; 
 }
 
-.secao-botao a:hover{
+#a2{
+    width: 100%;
+    background: linear-gradient(to right, rgb(72, 154, 209), rgb(0, 113, 188));
+    margin-right: 3em;
+    padding: 8px 25px;
+    border-radius: 30px;
+    font-weight: bold; 
+    transition: 1s;
+    box-shadow: 1px 1px 8px black;  
+}
+
+#a1:hover, #a2:hover{
     background: #ff7428;
 }
 
 .box2{
-   
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    opacity: .7;
 }
 
-.bg-home{
-    background: url();
+.box2:hover{
+    opacity: 1;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    background: rgb(36,79,107);
+    box-shadow: 1px 1px 8px rgb(0, 0, 0);
+}
+
+.icones{
+    letter-spacing: 1em;
+    font-size: 1em;
 }
