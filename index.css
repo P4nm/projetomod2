@@ -155,14 +155,8 @@ main{
 }
 
 .box2 img{
-    opacity: .7;
     width: 100%;
 }
-
-.box2 img:hover{
-    opacity: 1;
-}
-
 
 footer{
     display: flex;
