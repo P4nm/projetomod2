@@ -2,7 +2,13 @@ const emailRecupera = $("#email")
 const recuperarSenha = $("#botao")
 
 recuperarSenha.on("click", function (event) {
-    event.preventDefault() //  preventDefault ele evite que atualize a pagina
-    alert ("Encaminhamos um e-mail para recuperação de senha.")
-    console.log (emailRecupera.val())
-})
+    event.preventDefault() //  preventDefault ele evite que atualize a pagina 
+    if (emailRecupera.val().includes("@"&&".com")) {
+
+        alert ("Encaminhamos um e-mail para recuperação de senha.")
+    } else {
+
+        alert ("Insira um e-mail válido!")
+    }
+
+}) 
