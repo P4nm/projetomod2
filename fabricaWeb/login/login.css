@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 92vh;
+    background: url('https://raw.githubusercontent.com/P4nm/projetomod2/main/img/bginscr.png'), linear-gradient(to right, rgb(72, 154, 209), #53238e);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box-main{
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-texto{
+    width: 40%;
+    margin: 3em;
+}
+
+.box-texto p{
+    margin-top: -12vh;
+    margin-left: .4em;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.formulario{
+    display: flex;
+    justify-content: end;
+    width:50%;
+    height: 90%;
+    margin: auto 10px;
+}
+
+.form-corpo{
+    border: 2px solid rgba(83, 35, 142, .5);
+    width: 60%;
+    height: auto;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.secao1{
+    margin: 3em;
+    height: 15%;
+}
+
+.secao1 a{
+    color: rgb(255,116,40);
+    font-weight: bold;
+}
+
+.legenda{
+    font-size: 2em;
+    line-height: 2em;
+    font-weight: bold;
+}
+
+.secao2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.secao2 input{
+    width: 100%;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 20px;
+    outline: none;
+    box-shadow: 1px 1px 8px black;
+}
+
+button{
+    background: #53238e;
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    color: whitesmoke;
+    margin: 0 auto;
+    margin-top: 2em;
+    box-shadow: 1px 1px 8px black;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgb(255,116,40);
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    background: rgb(36,79,107);
+    box-shadow: 1px 1px 8px rgb(0, 0, 0);
+    color: whitesmoke;
+}
+
+.icones{
+    letter-spacing: 6px;
+}
