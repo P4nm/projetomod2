@@ -93,7 +93,7 @@ form{
     width: 13%;
 }
 
-#endereco, #email, #senha{
+#endereco, #email, #senha, #cep{
     width: 100%;
 }
 
