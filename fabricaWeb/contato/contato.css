@@ -1,0 +1,135 @@
+body{
+    background: linear-gradient(to right, #53238e, rgb(72, 154, 209));
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    overflow-x: hidden;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 8vh;
+    padding: 1em;
+    background: rgb(36,79,107);
+    box-shadow: 1px 1px 8px rgb(0, 0, 0);
+}
+
+.titulo-h1{
+    margin-left: 10vh;
+}
+
+.menu{ 
+    display: flex;
+    margin-right: 2em;
+}
+
+.menu li{
+    padding-right: 10px;
+}
+
+.menu a{
+    color: whitesmoke;
+    padding: 10px 25px;
+    border-radius: 8px;
+    transition: 1s;
+    font-weight: bold;
+}
+
+.ativo{
+    color: whitesmoke;
+}
+
+.menu a:hover{
+    color: whitesmoke;
+    background: #ff7428;
+    transition: 1s;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+
+.titulo-h1{
+    width: 100%;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.box1{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.lista-contato{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.lista-contato li{
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.img-solo{
+    margin: 15px auto;
+}
+
+.icon-li{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lista-contato li h2{
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.lista-contato li p{
+    font-size: 13px;
+}
+
+.lista-contato h2:hover{
+    color: #ff7428;
+    cursor: default;
+}
+
+
+.box2{
+    width: 50%;
+    height: 100%;
+    background: url('../../img/Bg_PgContatos.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    background: rgb(36,79,107);
+    box-shadow: 1px 1px 8px rgb(0, 0, 0);
+    color: aliceblue;
+}
