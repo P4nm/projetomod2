@@ -55,7 +55,7 @@ main{
 }
 
 .box1{
-    width: 45%;
+    width: 40%;
     display: flex;
     justify-content: space-around;
     text-align: justify;
