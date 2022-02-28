@@ -3,7 +3,7 @@
 }
 
 body{
-    background: linear-gradient(to right, rgb(72, 154, 209), #53238e);
+    background: linear-gradient(to right, #53238e, rgb(72, 154, 209));
     font-family: 'Open Sans', sans-serif;
     color: whitesmoke;
     overflow-x: hidden;
