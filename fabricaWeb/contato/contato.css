@@ -123,6 +123,32 @@ main{
     
 }
 
+.log{
+    margin: 3em auto 0 10em ;
+}
+
+.log a{
+    margin-right: 2em;
+    font-weight: bold;
+}
+
+#a1-log{
+    padding: 8px 25px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+#a2-log{
+    background: #ff7428;
+    padding: 8px 25px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+#a2-log:hover, #a1-log:hover{
+    background: #ff7428;
+}
+
 footer{
     display: flex;
     justify-content: space-around;
