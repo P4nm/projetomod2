@@ -18,6 +18,7 @@ body{
 
 .titulo-h1{
     margin-left: 10vh;
+    text-shadow: black;
 }
 
 .menu{ 
@@ -70,8 +71,13 @@ main{
 }
 
 .box1 p{
-    margin-top: -8em;
+    margin-top: -14em;
+    height: 40%;
 }
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 10px 20px 30px black;}
 
 .box2{
     width: 50%;
@@ -79,7 +85,13 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    transition: transform 0.6s ease-in-out;  
 }
+
+.box2:hover {
+    transform: scale(1.1); 
+  }
+  
 
 footer{
     display: flex;
@@ -90,4 +102,5 @@ footer{
     background: rgb(36,79,107);
     box-shadow: 1px 1px 8px rgb(0, 0, 0);
     color: aliceblue;
+    margin-bottom : 0;
 }
