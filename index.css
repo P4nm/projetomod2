@@ -63,7 +63,7 @@ main{
     flex-direction: column;  
     justify-content: end;  
     width: 45%;
-    height: auto;
+    height: 419px;
     margin: 8em;
 }
 
@@ -110,7 +110,7 @@ main{
     width: 100%;
     background: linear-gradient(to right, #53238e, rgb(72, 154, 209));
     margin-right: 3em;
-    padding: 8px 25px;
+    padding: 15px 25px;
     border-radius: 30px;
     font-weight: bold; 
     transition: 1s;

@@ -112,19 +112,31 @@ main{
     cursor: default;
 }
 
-
 .box2{
+    /* width: 50%;
+    height: 80%;
+    background: url('../../img/Bg_PgContatos.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; */
+    
+}
+.bgcontatos{
     width: 50%;
-    height: 100%;
+    position: absolute; 
+    display: flex;  
+    height: 68%;
     background: url('../../img/Bg_PgContatos.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    
+    left: 921px;
+    top: 192px;
 }
 
 .log{
     margin: 3em auto 0 10em ;
+
 }
 
 .log a{
